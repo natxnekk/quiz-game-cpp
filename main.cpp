@@ -43,7 +43,7 @@ char getCorrectAnswer(Question question, map<char, std::string> answers) {
     for (auto& i : answers) {
         if (correct == i.second) return i.first;
     }
-    return '';
+    return 'X';
 }
 
 Question getRandomQuestion() {
